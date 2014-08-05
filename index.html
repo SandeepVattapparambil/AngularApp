@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" ng-app="AngularApp">
+<head>
+<meta charset="UTF-8">
+<title>Angular App</title>
+<script type="text/javascript" src="angular/angular.min.js"></script>
+<script type="text/javascript" src="js/controllers.js"></script>
+</head>
+<body>
+<div ng-controller="authorController">
+	<h1>{{author.Name}}</h1>
+	<p>{{ author.Job + ', ' + author.Company }}</p>
+</div>
+</body>
+</html>
